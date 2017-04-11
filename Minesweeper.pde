@@ -7,7 +7,7 @@ private boolean gameOver = false;
 
 void setup ()
 {
-    size(400, 400);
+    size(300, 300);
     textAlign(CENTER,CENTER);
     // make the manager
     
