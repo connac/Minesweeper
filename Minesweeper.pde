@@ -57,7 +57,7 @@ public void displayLosingMessage()
     for(int r = 0; r < NUM_ROWS; r++)
         for(int c = 0; c < NUM_COLS; c++)   
             if(bombs.contains(buttons[r][c]))
-                buttons[r][c].setLabel("M");
+                buttons[r][c].setLabel("x");
  
     String message = new String("Game Over!");
     for(int i = 0; i < message.length(); i++ )
